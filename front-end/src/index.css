@@ -1,0 +1,184 @@
+body {
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+   background-color: #faf8f8;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+}
+#radio {
+   font-size: 4px !important;
+}
+.submit-btn button {
+   color: #ffffff !important;
+   text-transform: capitalize;
+   font-size: 15px;
+   font-weight: 600;
+}
+
+.navbar {
+   background-color: #000075 !important;
+   /*background-color: #232D94!important;*/
+   padding: 10px !important;
+}
+.navbar-brand {
+   color: #ffffff;
+}
+.nav-link {
+   color: #ffffff !important;
+}
+.nav-link:hover {
+   color: #f4f4f4;
+}
+.navbar-brand:hover {
+   color: #f4f4f4;
+}
+
+.bi-trophy-fill {
+}
+.not-found {
+   margin-top: 200px !important;
+   font-weight: 500 !important;
+}
+
+.divider {
+   color: white;
+}
+.Buttons {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+
+.bi-clock {
+   font-size: 20px;
+   padding: 0;
+}
+
+.signup-header {
+   margin-top: 40px;
+}
+form {
+   margin-top: 40px;
+}
+input {
+   padding: 10px !important;
+}
+input::placeholder {
+   color: #000000;
+   font-weight: 400 !important;
+}
+.form-label {
+   font-weight: 500;
+   text-transform: capitalize;
+}
+.sign-text {
+   font-size: 16px !important;
+   margin-left: 5px;
+   font-weight: 600 !important;
+   color: #000075 !important;
+   text-decoration: none !important;
+}
+.question-options {
+   background-color: #ffffff;
+   border: 1px solid #000075;
+   border-radius: 20px;
+   padding: 12px;
+}
+#retake-quiz {
+   color: #000075 !important;
+   font-size: 20px;
+   text-decoration: none !important ;
+   font-weight: 400;
+}
+.btns {
+   background-color: #000075 !important;
+   color: #ffffff !important;
+   padding: 12px !important;
+   border-radius: 20px !important;
+   text-transform: capitalize;
+}
+.submit-btn {
+   background-color: rgb(232, 8, 8) !important;
+   color: #ffffff !important;
+   padding: 12px !important;
+   border-radius: 20px !important;
+   text-transform: capitalize;
+   font-weight: 600 !important;
+}
+.card {
+   box-shadow: 2px 2px 2px 1px #faf8f8 !important;
+}
+.bi-person-circle {
+   font-size: 50px;
+}
+#change-photo {
+   color: #000075;
+   font-weight: 400;
+   border: 2px solid #000075;
+   background-color: #ffffff;
+}
+#change-photo:hover {
+   background-color: #000075;
+   color: #ffffff;
+}
+#save-btn {
+   background-color: #000075 !important;
+   color: #f4f4f4;
+   display: inline-block;
+   padding: 10px;
+   text-transform: capitalize;
+   font-weight: 600;
+}
+#signup-btn {
+   padding: 12px;
+   background-color: #000075;
+   margin-top: 17px;
+   /*background-color:#FC7938;*/
+   color: #ffffff;
+   font-weight: 500;
+}
+.course {
+   background-color: #000000 !important;
+   color: white;
+}
+
+.icon {
+   display: inline-block !important;
+   width: 50px;
+   height: 50px;
+   color: black;
+   padding: 5px;
+   border-radius: 50%;
+   background-color: #ffffff;
+}
+.answer-options {
+   display: block;
+   margin: 10px 50px 0px 0px !important;
+}
+.check-btn {
+   margin-right: 10px;
+}
+#submit-btn {
+   background-color: #ff0000;
+   color: #ffffff;
+   text-transform: uppercase;
+   font-size: 14px;
+   font-weight: 600;
+}
+.bi-triangle-fill {
+   text-align: center !important;
+   display: flex;
+   justify-content: space-evenly;
+   font-size: 25px !important;
+   margin-top: 8px;
+}
+#questions {
+   list-style-type: none;
+}
