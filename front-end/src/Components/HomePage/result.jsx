@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useLocation, Link } from "react-router-dom";
 const DisplayResult = () => {
    const { state } = useLocation();
@@ -23,8 +23,7 @@ const DisplayResult = () => {
       comment = "";
       icon = "#CD7F32";
    }
-   //https://ultimatecourses.com/blog/get-value-checked-radio-buttons
-   // https://www.youtube.com/watch?v=3aKOQn2NPFs&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=12
+
    return (
       <div className='display-candidate-result'>
          <div className='container d-flex justify-content-center mt-5'>

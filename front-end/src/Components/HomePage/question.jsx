@@ -1,7 +1,7 @@
 /* eslint-disable no-loop-func */
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import Spinner from "./spinner";
 import {
@@ -12,7 +12,6 @@ import {
 const QuestionPage = (props) => {
    const [score, setScore] = useState(0);
    const [selectedOptions, setSelectedOptions] = useState([]);
-   const [showScore, setShowScore] = useState(false);
    const handleAnswerOption = (answer) => {
       setSelectedOptions([
          (selectedOptions[currentQuestionIndex] = {
